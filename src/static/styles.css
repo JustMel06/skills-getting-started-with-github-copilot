@@ -136,9 +136,18 @@ button:hover {
   display: none;
 }
 
-footer {
-  text-align: center;
-  margin-top: 30px;
-  padding: 20px;
-  color: #666;
+.delete-btn {
+  color: #c62828;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ffebee;
 }
